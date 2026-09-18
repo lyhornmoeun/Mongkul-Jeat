@@ -1,1 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mongkul Jeat (មង្គលជាតិ) | Affordable $2,000 All-Inclusive Khmer Wedding Service</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kantumruy+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              bg: '#F6F0E2',
+              bgGold: '#F4ECE0',
+              surface: '#FCFAF5',
+              sage: '#8A9A86',
+              sageHover: '#758572',
+              sageLight: '#E8ECE7',
+              sageTint: '#F3F6F2',
+              dark: '#2A2D29',
+              muted: '#686E65',
+              gold: '#C5A059',
+              goldHover: '#B38D45',
+              goldLight: '#EFE3CA',
+              goldTint: '#FAF3E6',
+              goldBorder: '#E2D4B7',
+              terracotta: '#B76E5B',
+              border: '#E4D8C1'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'Kantumruy Pro', 'sans-serif'],
+            serif: ['Playfair Display', 'Kantumruy Pro', 'serif'],
+            khmer: ['Kantumruy Pro', 'Inter', 'sans-serif']
+          },
+          boxShadow: {
+            'soft': '0 4px 20px -2px rgba(197, 160, 89, 0.12), 0 2px 6px -1px rgba(0, 0, 0, 0.03)',
+            'card': '0 10px 30px -4px rgba(42, 45, 41, 0.06), 0 4px 10px -2px rgba(197, 160, 89, 0.08)',
+            'float': '0 20px 40px -8px rgba(197, 160, 89, 0.25)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #F6F0E2;
+      color: #2A2D29;
+      font-family: 'Inter', 'Kantumruy Pro', sans-serif;
+    }
+    
+    /* Dual Language CSS Logic */
+    :root[lang="en"] .kh { display: none !important; }
+    :root[lang="kh"] .en { display: none !important; }
 
+    .lotus-pattern {
+      background-image: radial-gradient(#C5A059 1px, transparent 1px);
+      background-size: 24px 24px;
+      opacity: 0.28;
+    }
+    
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #F6F0E2; }
+    ::-webkit-scrollbar-thumb { background: #D9CBB0; border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #C5A059; }
+  </style>
+</head>
+<body class="antialiased selection:bg-brand-goldLight selection:text-brand-dark">
+
+  <header class="sticky top-0 z-40 w-full backdrop-blur-md bg-brand-bg/95 border-b border-brand-border/90 transition-all duration-300 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-brand-sage rounded-xl p-1">
+        <div class="w-11 h-11 rounded-2xl bg-brand-sage text-white flex items-center justify-center shadow-sm group-hover:bg-brand-sageHover transition-all duration-200">
+          <svg class="w-6 h-6 transform group-hover:scale-110 transition-transform duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3C12 3 8 7 8 13C8 16 9.5 19 12 21C14.5 19 16 16 16 13C16 7 12 3 12 3Z"/>
+            <path d="M7 10C5 11 3 13 3 16C3 18.5 5 20.5 8 20.8"/>
+            <path d="M17 10C19 11 21 13 21 16C21 18.5 19 20.5 16 20.8"/>
+            <path d="M12 16V21"/>
+          </svg>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="font-serif font-bold text-xl sm:text-2xl text-brand-dark tracking-tight">
+              <span class="en">Mongkul Jeat</span><span class="kh">មង្គលជាតិ</span>
+            </span>
+            <span class="text-xs px-2 py-0.5 rounded-full bg-brand-sageLight text-brand-dark font-medium border border-brand-sage/30">
+              <span class="en">មង្គលជាតិ</span><span class="kh">ពិធីការខ្មែរ</span>
+            </span>
+          </div>
+          <p class="text-xs text-brand-muted hidden sm:block tracking-wide">
+            <span class="en">Sacred Khmer Weddings • $2,000 All-Inclusive</span>
+            <span class="kh">មង្គលការខ្មែរប្រពៃណី • កញ្ចប់ពេញលេញ $២,០០០</span>
+          </p>
+        </div>
+      </a>
+
+      <!-- Navigation Links (Desktop) -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-brand-muted">
+        <a href="#services" class="hover:text-brand-dark transition-colors duration-150">
+          <span class="en">What's Included</span><span class="kh">សេវាកម្មរួមបញ្ចូល</span>
+        </a>
+        <a href="#timeline" class="hover:text-brand-dark transition-colors duration-150">
+          <span class="en">Morning Run-Sheet</span><span class="kh">កាលវិភាគពេលព្រឹក</span>
+        </a>
+        <a href="#calculator" class="hover:text-brand-dark transition-colors duration-150">
+          <span class="en">Pricing & Add-ons</span><span class="kh">តម្លៃ & សេវាបន្ថែម</span>
+        </a>
+        <a href="#faq" class="hover:text-brand-dark transition-colors duration-150">
+          <span class="en">FAQ</span><span class="kh">សំណួរញឹកញាប់</span>
+        </a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <!-- Language Switcher -->
+        <button onclick="toggleLanguage()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-brand-border bg-brand-surface text-brand-dark text-xs font-semibold hover:bg-brand-sageLight transition-colors shadow-sm" title="Toggle Language">
+          <svg class="w-4 h-4 text-brand-sage" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          <span class="en">ភាសាខ្មែរ</span>
+          <span class="kh">English</span>
+        </button>
+
+        <a href="#contact" class="hidden sm:inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-brand-sage text-white text-xs sm:text-sm font-semibold hover:bg-brand-sageHover hover:shadow-soft active:scale-95 transition-all duration-150">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+          </svg>
+          <span class="en">Check Date</span><span class="kh">ពិនិត្យកាលបរិច្ឆេទ</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden bg-gradient-to-b from-[#F5EDE0] via-[#F8F2E7] to-[#F6F0E2]">
+      <div class="absolute inset-0 lotus-pattern pointer-events-none"></div>
+      <div class="absolute top-1/4 -right-28 w-96 h-96 bg-brand-gold/20 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-10 -left-24 w-80 h-80 bg-brand-goldLight/70 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        
+        <!-- Sacred cultural trust pill -->
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-surface border border-brand-goldBorder shadow-sm mb-6 animate-fade-in">
+          <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+          <span class="text-xs sm:text-sm font-medium text-brand-muted">
+            ពិធីមង្គលប្រពៃណីខ្មែរ • គ្មានបំណុល ១០០% • កញ្ចប់ពេញលេញ <strong class="text-brand-dark">$២,០០០</strong>
+          </span>
+        </div>
+
+        <!-- Main Hero Title -->
+        <h1 class="text-3xl sm:text-5xl md:text-6xl font-serif font-bold text-brand-dark tracking-tight leading-normal sm:leading-relaxed mb-8 font-khmer max-w-4xl mx-auto space-y-2 sm:space-y-4">
+          <span class="block py-1">ពិធីមង្គលការខ្មែរប្រពៃណីដ៏ឧត្តុង្គឧត្តម</span>
+          <span class="block text-[0.86em] font-semibold text-brand-sage py-1">ផ្ដល់កិត្តិយសដ៏ថ្លៃថ្នូរចំពោះមាតាបិតា</span>
+          <span class="block text-[0.75em] font-semibold text-brand-terracotta py-1">ដោយគ្មានបន្ទុកបំណុល</span>
+        </h1>
+
+        <!-- Tagline / Subtitle -->
+        <p class="max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-brand-muted leading-relaxed mb-10 font-khmer">
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-6">
+          <a href="#contact" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-brand-sage text-white text-base font-semibold hover:bg-brand-sageHover shadow-card hover:shadow-float active:scale-98 transition-all duration-200">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.39 5.08L2.2 21.8l4.85-1.16C8.47 21.49 10.18 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm4.65 14.28c-.2.57-1.16 1.05-1.61 1.1-.42.05-.98.08-2.83-.68-2.37-.98-3.9-3.39-4.02-3.55-.12-.16-.97-1.29-.97-2.46s.61-1.74.83-1.98c.22-.24.48-.3.64-.3s.32.01.46.02c.15.01.35-.06.55.42.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.26-.24.4-.12.14-.25.31-.36.42-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.38.1.52-.06.14-.16.61-.71.77-.96.16-.25.32-.21.54-.13.22.08 1.4.66 1.64.78.24.12.4.18.46.28.06.1.06.58-.14 1.15z"/>
+            </svg>
+            <span class="en">Check Your Wedding Date</span>
+            <span class="kh">ពិនិត្យកាលបរិច្ឆេទថ្ងៃការ</span>
+          </a>
+        </div>
+
+        <div class="mb-12">
+          <a href="#timeline" class="inline-flex items-center gap-1.5 text-xs sm:text-sm text-brand-muted hover:text-brand-dark transition-colors">
+            <svg class="w-4 h-4 text-brand-sage" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+            <span class="en">View 5:45 AM – 12:00 PM Run-Sheet &gt;</span>
+            <span class="kh">មើលកាលវិភាគ ៥:៤៥ ព្រឹក – ១២:០០ ថ្ងៃត្រង់ &gt;</span>
+          </a>
+        </div>
+
+        <div class="pt-6 border-t border-brand-border/70 max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-y-2 gap-x-6 text-xs sm:text-sm text-brand-muted">
+          <span class="flex items-center gap-1.5 font-medium text-brand-dark">
+            <svg class="w-4 h-4 text-brand-sage" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span class="en">On-Site Staging Nationwide:</span>
+            <span class="kh">រៀបចំទីតាំងផ្ទាល់ទូទាំងប្រទេស:</span>
+          </span>
+          <span class="hover:text-brand-dark"><span class="en">Phnom Penh</span><span class="kh">រាជធានីភ្នំពេញ</span></span>
+          <span class="text-brand-border">•</span>
+          <span class="hover:text-brand-dark"><span class="en">Siem Reap</span><span class="kh">ខេត្តសៀមរាប</span></span>
+          <span class="text-brand-border">•</span>
+          <span class="hover:text-brand-dark"><span class="en">Battambang</span><span class="kh">ខេត្តបាត់ដំបង</span></span>
+          <span class="text-brand-border">•</span>
+          <span class="hover:text-brand-dark"><span class="en">Kampong Cham</span><span class="kh">ខេត្តកំពង់ចាម</span></span>
+          <span class="text-brand-border">•</span>
+          <span class="text-brand-sage font-medium">
+            <span class="en">+ Provincial Shophouses & Compounds</span>
+            <span class="kh">+ ផ្ទះល្វែង និងភូមិដ្ឋានទូទាំងប្រទេស</span>
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="services" class="py-20 bg-brand-surface border-y border-brand-border relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-xs uppercase tracking-widest font-semibold text-brand-sage bg-brand-sageLight/60 px-3 py-1 rounded-full">
+            <span class="en">Complete Ceremony Package</span><span class="kh">កញ្ចប់ពិធីមង្គលការពេញលេញ</span>
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mt-4 mb-3">
+            <span class="en">Everything Essential for $2,000</span><span class="kh">គ្រប់តម្រូវការចាំបាច់ត្រឹមតែ $២,០០០</span>
+          </h2>
+          <p class="text-brand-muted text-sm sm:text-base">
+            <span class="en">No hidden rental penalties, no unexpected add-on surprises. Structured carefully so your parents feel deeply honored.</span>
+            <span class="kh">គ្មានការទារប្រាក់បន្ថែម គ្មានការចំណាយលាក់កំបាំង។ រៀបចំឡើងយ៉ាងផ្ចិតផ្ចៅដើម្បីឱ្យមាតាបិតាមានមោទនភាព និងសប្បាយចិត្ត។</span>
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Card 1: Sacred Rituals & Master Direction -->
+          <div class="bg-brand-bg rounded-3xl p-8 border border-brand-border hover:border-brand-sage/60 hover:shadow-card transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-brand-sageLight text-brand-sage flex items-center justify-center mb-6 group-hover:scale-105 transition-transform">
+                <!-- Incense / Sacred Altar Icon -->
+                <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v4M8 6v2M16 6v2M5 14h14l-1.5 7h-11zM7 10h10"/>
+                  <circle cx="12" cy="4" r="1"/>
+                </svg>
+              </div>
+              <span class="text-xs font-semibold text-brand-terracotta tracking-wider uppercase">ទំនៀមទម្លាប់ដូនតា និងជំនូនផ្លែឈើ</span>
+              <h3 class="text-xl font-serif font-bold text-brand-dark mt-1 mb-3">ពិធីហែកូនកំលោះ ថែពាក្យ និងជំនូនផ្លែឈើ</h3>
+              <p class="text-sm text-brand-muted leading-relaxed mb-6">
+                រៀបចំពិធីពេញលេញដឹកនាំដោយអាចារ្យចាស់ទុំមានកិត្តិយស។ ផ្ដល់ជូនជើងពានផ្លែឈើ រណ្ដាប់ជំនូន កញ្ចក់ពពិល និងអំបោះក្រហមសូត្រមន្តចងដៃ។
+              </p>
+            </div>
+            <ul class="space-y-2.5 text-xs text-brand-dark/90 pt-4 border-t border-brand-border">
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-sage"></span>
+                <span class="en">Senior Achar master coordination</span><span class="kh">អាចារ្យចាស់ទុំជំនាញដឹកនាំពិធី</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-sage"></span>
+                <span class="en">Complete 12-pedestal fruit & betrothal trays</span><span class="kh">ជើងពានផ្លែឈើ និងរណ្ដាប់ស្លាដក់ ១២ គូ</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-sage"></span>
+                <span class="en">Blessed Popil candles & knot-tying cords</span><span class="kh">ទៀនពពិលស័ក្តិសិទ្ធិ & អំបោះក្រហមប្រសិទ្ធពរ</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-brand-bg rounded-3xl p-8 border-2 border-brand-sage/40 shadow-soft hover:shadow-card transition-all duration-300 flex flex-col justify-between relative group">
+            <div class="absolute -top-3.5 right-6 px-3 py-1 rounded-full bg-brand-sage text-white text-xs font-bold tracking-wide shadow-sm">
+              <span class="en">Most Valued</span><span class="kh">ពេញនិយមបំផុត</span>
+            </div>
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-brand-sage text-white flex items-center justify-center mb-6 group-hover:scale-105 transition-transform">
+                <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 12l-4-9-4 5-4-5-4 9h16z"/>
+                  <path d="M4 12v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/>
+                  <circle cx="12" cy="16" r="2"/>
+                </svg>
+              </div>
+              <span class="text-xs font-semibold text-brand-sage tracking-wider uppercase">
+                <span class="en">Ceremonial Wear</span><span class="kh">សម្លៀកបំពាក់ពិធីការ</span>
+              </span>
+              <h3 class="text-xl font-serif font-bold text-brand-dark mt-1 mb-3">
+                <span class="en">3 Attire Sets & Bridal Artistry</span><span class="kh">សម្លៀកបំពាក់ ៣ ឈុត & ផាត់មុខកូនក្រមុំ</span>
+              </h3>
+              <p class="text-sm text-brand-muted leading-relaxed mb-6">
+                <span class="en">Three curated couple changes: 2 handcrafted traditional Khmer silk costumes for morning rituals, plus 1 modern reception suit/dress with professional makeup & hair.</span>
+                <span class="kh">ផ្លាស់ប្ដូរសម្លៀកបំពាក់ ៣ ឈុត៖ សូត្រខ្មែរបុរាណ ២ គូសម្រាប់ពិធីព្រឹក និងឈុតធំ/រ៉ូបសម័យ ១ គូសម្រាប់ពិធីជប់លៀង រួមទាំងជាងផាត់មុខ និងធ្វើសក់អាជីព។</span>
+              </p>
+            </div>
+            <ul class="space-y-2.5 text-xs text-brand-dark/90 pt-4 border-t border-brand-border">
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-sage"></span>
+                <span class="en">2 Traditional Khmer silk pairs (Morning rites)</span><span class="kh">ឈុតសូត្របុរាណខ្មែរ ២ គូ (ពិធីព្រឹក)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-sage"></span>
+                <span class="en">1 Modern dinner suit & gown (Reception)</span><span class="kh">ឈុតធំ និងរ៉ូបសម័យ ១ គូ (ពិធីល្ងាច)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-sage"></span>
+                <span class="en">Full professional bridal makeup & hair artist</span><span class="kh">ជាងផាត់មុខ និងធ្វើសក់កូនក្រមុំអាជីពពេញលេញ</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-brand-bg rounded-3xl p-8 border border-brand-border hover:border-brand-sage/60 hover:shadow-card transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-brand-sageLight text-brand-sage flex items-center justify-center mb-6 group-hover:scale-105 transition-transform">
+                <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+                  <path d="m9 14 2 2 4-4"/>
+                </svg>
+              </div>
+              <span class="text-xs font-semibold text-brand-muted tracking-wider uppercase">
+                <span class="en">Stress-Free Day</span><span class="kh">កម្មវិធីរលូនគ្មានកង្វល់</span>
+              </span>
+              <h3 class="text-xl font-serif font-bold text-brand-dark mt-1 mb-3">
+                <span class="en">Catering & On-Site Coordinator</span><span class="kh">ការសម្របសម្រួលអាហារ & អ្នកចាត់ចែង</span>
+              </h3>
+              <p class="text-sm text-brand-muted leading-relaxed mb-6">
+                <span class="en">Your dedicated stage manager directs the schedule, handles guest greeting logistics, and coordinates the lunch banquet setup so families can simply rejoice.</span>
+                <span class="kh">អ្នកសម្របសម្រួលផ្ទាល់នៅទីតាំង គ្រប់គ្រងកាលវិភាគ ទទួលភ្ញៀវ និងរៀបចំអាហារថ្ងៃត្រង់ (ប៊ូហ្វេ ឬតុអាហារ និងភេសជ្ជៈ) ដើម្បីឱ្យក្រុមគ្រួសាររីករាយពេញទំហឹង។</span>
+              </p>
+            </div>
+            <ul class="space-y-2.5 text-xs text-brand-dark/90 pt-4 border-t border-brand-border">
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-sage"></span>
+                <span class="en">Dedicated on-site schedule coordinator</span><span class="kh">អ្នកសម្របសម្រួលកាលវិភាគផ្ទាល់នៅទីតាំង</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-sage"></span>
+                <span class="en">Lunch banquet & refreshment staging support</span><span class="kh">ជួយរៀបចំតុអាហារថ្ងៃត្រង់ និងភេសជ្ជៈ</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-sage"></span>
+                <span class="en">Parents and elders sit as honored guests</span><span class="kh">មាតាបិតា និងចាស់ទុំអង្គុយជាភ្ញៀវកិត្តិយស</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="timeline" class="py-20 bg-brand-bg relative overflow-hidden">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-xs uppercase tracking-widest font-semibold text-brand-gold bg-brand-goldLight px-3 py-1 rounded-full border border-brand-gold/20">
+            <span class="en">The Sacred Progression</span><span class="kh">លំដាប់លំដោយនៃពិធីមង្គល</span>
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mt-4 mb-3">
+            <span class="en">5:45 AM – 12:00 PM Run-Sheet</span><span class="kh">កាលវិភាគពិធី ៥:៤៥ ព្រឹក – ១២:០០ ថ្ងៃត្រង់</span>
+          </h2>
+          <p class="text-brand-muted text-sm sm:text-base">
+            <span class="en">A disciplined, peaceful morning ceremony that honors every ancestral tradition without exhausting your family elders.</span>
+            <span class="kh">ពិធីពេលព្រឹកដ៏សក្ការៈ គោរពគ្រប់ទំនៀមទម្លាប់ខ្មែរ ដោយមិនធ្វើឱ្យចាស់ទុំហត់នឿយហួសហេតុ។</span>
+          </p>
+        </div>
+
+        <div class="relative border-l-2 border-brand-sage/40 ml-4 md:ml-32 space-y-12 pb-4">
+          
+          <!-- Step 1 -->
+          <div class="relative pl-8 md:pl-10 group">
+            <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-brand-surface border-4 border-brand-sage flex items-center justify-center text-xs font-bold text-brand-dark shadow-sm group-hover:scale-110 transition-transform">
+              <span class="en">1</span><span class="kh">១</span>
+            </div>
+            <div class="md:absolute md:-left-36 md:top-1 text-xs font-semibold text-brand-sage bg-brand-sageLight/80 px-2.5 py-1 rounded-lg inline-block mb-2 md:mb-0">
+              <span class="en">05:45 AM</span><span class="kh">០៥:៤៥ ព្រឹក</span>
+            </div>
+            <div class="bg-brand-surface p-6 rounded-2xl border border-brand-border shadow-soft group-hover:border-brand-sage/40 transition-colors">
+              <div class="flex items-center justify-between gap-4 mb-2">
+                <h4 class="text-lg font-bold text-brand-dark font-serif">
+                  <span class="en">Krong Peali (ពិធីក្រុងពាលី)</span><span class="kh">ពិធីក្រុងពាលី</span>
+                </h4>
+                <span class="text-xs text-brand-muted font-medium">
+                  <span class="en">Honoring the Earth Deity</span><span class="kh">សុំការអនុញ្ញាតម្ចាស់ទឹកម្ចាស់ដី</span>
+                </span>
+              </div>
+              <p class="text-sm text-brand-muted leading-relaxed">
+                <span class="en">The Achar leads the offering to the land spirits and deities, seeking permission and blessings for a harmonious, smooth, and peaceful ceremony.</span>
+                <span class="kh">លោកអាចារ្យដឹកនាំរៀបចំរណ្ដាប់សែនព្រះភូមិ ទេវតា និងម្ចាស់ទឹកម្ចាស់ដី ដើម្បីសុំការអនុញ្ញាត និងប្រសិទ្ធពរជ័យឱ្យដំណើរការកម្មវិធីទាំងមូលប្រព្រឹត្តទៅដោយរលូន សុខដុមរមនា និងត្រជាក់ត្រជុំ។</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="relative pl-8 md:pl-10 group">
+            <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-brand-surface border-4 border-brand-sage flex items-center justify-center text-xs font-bold text-brand-dark shadow-sm group-hover:scale-110 transition-transform">
+              <span class="en">2</span><span class="kh">២</span>
+            </div>
+            <div class="md:absolute md:-left-36 md:top-1 text-xs font-semibold text-brand-sage bg-brand-sageLight/80 px-2.5 py-1 rounded-lg inline-block mb-2 md:mb-0">
+              <span class="en">06:00 AM</span><span class="kh">០៦:០០ ព្រឹក</span>
+            </div>
+            <div class="bg-brand-surface p-6 rounded-2xl border border-brand-border shadow-soft group-hover:border-brand-sage/40 transition-colors">
+              <div class="flex items-center justify-between gap-4 mb-2">
+                <h4 class="text-lg font-bold text-brand-dark font-serif">
+                  <span class="en">Hai Goan Gomlos (ហែកូនកំលោះ)</span><span class="kh">ពិធីហែកូនកំលោះ និងជំនូនផ្លែឈើ</span>
+                </h4>
+                <span class="text-xs text-brand-muted font-medium">
+                  <span class="en">Groom's Fruit Parade</span><span class="kh">ក្បួនហែផ្លែឈើជំនូន</span>
+                </span>
+              </div>
+              <p class="text-sm text-brand-muted leading-relaxed">
+                <span class="en">The groom, escorted by his parents, family members, and groomsmen, parades through the village or neighborhood bearing matching silver fruit pedestals.</span>
+                <span class="kh">កូនកំលោះ ហែហមដោយឪពុកម្តាយ សាច់ញាតិ និងមិត្តភ័ក្តិ កាន់ជើងពានផ្លែឈើប្រាក់ជាក្បួនយ៉ាងថ្លៃថ្នូរ ចូលទៅកាន់គេហដ្ឋានកូនក្រមុំ។</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="relative pl-8 md:pl-10 group">
+            <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-brand-surface border-4 border-brand-sage flex items-center justify-center text-xs font-bold text-brand-dark shadow-sm group-hover:scale-110 transition-transform">
+              <span class="en">3</span><span class="kh">៣</span>
+            </div>
+            <div class="md:absolute md:-left-36 md:top-1 text-xs font-semibold text-brand-sage bg-brand-sageLight/80 px-2.5 py-1 rounded-lg inline-block mb-2 md:mb-0">
+              <span class="en">07:30 AM</span><span class="kh">០៧:៣០ ព្រឹក</span>
+            </div>
+            <div class="bg-brand-surface p-6 rounded-2xl border border-brand-border shadow-soft group-hover:border-brand-sage/40 transition-colors">
+              <div class="flex items-center justify-between gap-4 mb-2">
+                <h4 class="text-lg font-bold text-brand-dark font-serif">
+                  <span class="en">Ancestral Homage (សែនដូនតា)</span><span class="kh">ពិធីសែនដូនតា</span>
+                </h4>
+                <span class="text-xs text-brand-muted font-medium">
+                  <span class="en">Spiritual Homage</span><span class="kh">ឧទ្ទិសកុសលដល់បុព្វការីជន</span>
+                </span>
+              </div>
+              <p class="text-sm text-brand-muted leading-relaxed">
+                <span class="en">Paying deep reverence to departed ancestors, formally requesting their blessings and protection for the new couple, followed by the exchange of areca betrothal nuts.</span>
+                <span class="kh">បួងសួងសុំពរជ័យពីដូនតាចំពោះគូស្រករថ្មី និងពិធីជូនស្លាដក់តាមប្រពៃណីខ្មែរដ៏បរិសុទ្ធ។</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="relative pl-8 md:pl-10 group">
+            <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-brand-surface border-4 border-brand-sage flex items-center justify-center text-xs font-bold text-brand-dark shadow-sm group-hover:scale-110 transition-transform">
+              <span class="en">4</span><span class="kh">៤</span>
+            </div>
+            <div class="md:absolute md:-left-36 md:top-1 text-xs font-semibold text-brand-sage bg-brand-sageLight/80 px-2.5 py-1 rounded-lg inline-block mb-2 md:mb-0">
+              <span class="en">08:30 AM</span><span class="kh">០៨:៣០ ព្រឹក</span>
+            </div>
+            <div class="bg-brand-surface p-6 rounded-2xl border border-brand-border shadow-soft group-hover:border-brand-sage/40 transition-colors">
+              <div class="flex items-center justify-between gap-4 mb-2">
+                <h4 class="text-lg font-bold text-brand-dark font-serif">
+                  <span class="en">Gaat Sak (ពិធីកាត់សក់)</span><span class="kh">ពិធីកាត់សក់បង្កក់សិរី</span>
+                </h4>
+                <span class="text-xs text-brand-muted font-medium">
+                  <span class="en">Symbolic Hair Cleansing</span><span class="kh">ជម្រះឧបទ្រពចង្រៃ & សុំសិរីសួស្តី</span>
+                </span>
+              </div>
+              <p class="text-sm text-brand-muted leading-relaxed">
+                <span class="en">The symbolic cleansing haircut led by master song-performers or the Achar, gently washing away the past and inviting prosperity, long life, and purity.</span>
+                <span class="kh">ពិធីកាត់សក់និមិត្តរូបដឹកនាំដោយអាចារ្យ ឬអ្នកច្រៀងមង្គលការ ដើម្បីជម្រះរឿងមិនល្អ និងទទួលសិរីសួស្តី អាយុយឺនយូរ។</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="relative pl-8 md:pl-10 group">
+            <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-brand-surface border-4 border-brand-sage flex items-center justify-center text-xs font-bold text-brand-dark shadow-sm group-hover:scale-110 transition-transform">
+              <span class="en">5</span><span class="kh">៥</span>
+            </div>
+            <div class="md:absolute md:-left-36 md:top-1 text-xs font-semibold text-brand-sage bg-brand-sageLight/80 px-2.5 py-1 rounded-lg inline-block mb-2 md:mb-0">
+              <span class="en">09:45 AM</span><span class="kh">០៩:៤៥ ព្រឹក</span>
+            </div>
+            <div class="bg-brand-surface p-6 rounded-2xl border border-brand-border shadow-soft group-hover:border-brand-sage/40 transition-colors">
+              <div class="flex items-center justify-between gap-4 mb-2">
+                <h4 class="text-lg font-bold text-brand-dark font-serif">
+                  <span class="en">Bongvul Popil (បង្វិលពពិល)</span><span class="kh">ពិធីបង្វិលពពិល</span>
+                </h4>
+                <span class="text-xs text-brand-muted font-medium">
+                  <span class="en">Passing of the Sacred Flame</span><span class="kh">ពរជ័យពន្លឺភ្លើងទាន ៧ ជុំ</span>
+                </span>
+              </div>
+              <p class="text-sm text-brand-muted leading-relaxed">
+                <span class="en">Married couples encircle the bride and groom, passing sacred betel-leaf candle pedestals in seven clockwise rotations, waving the smoke towards the couple.</span>
+                <span class="kh">ចាស់ទុំដែលមានគូស្រករមានសុភមង្គល បង្វិលពពិលចំនួន ៧ ជុំ បក់ផ្សែងទានឆ្ពោះទៅកាន់កូនកំលោះកូនក្រមុំ ដើម្បីប្រសិទ្ធពរជ័យ។</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="relative pl-8 md:pl-10 group">
+            <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-brand-surface border-4 border-brand-sage flex items-center justify-center text-xs font-bold text-brand-dark shadow-sm group-hover:scale-110 transition-transform">
+              <span class="en">6</span><span class="kh">៦</span>
+            </div>
+            <div class="md:absolute md:-left-36 md:top-1 text-xs font-semibold text-brand-sage bg-brand-sageLight/80 px-2.5 py-1 rounded-lg inline-block mb-2 md:mb-0">
+              <span class="en">10:45 AM</span><span class="kh">១០:៤៥ ព្រឹក</span>
+            </div>
+            <div class="bg-brand-surface p-6 rounded-2xl border border-brand-border shadow-soft group-hover:border-brand-sage/40 transition-colors">
+              <div class="flex items-center justify-between gap-4 mb-2">
+                <h4 class="text-lg font-bold text-brand-dark font-serif">
+                  <span class="en">Sompeas Ptem (សំពះផ្ទឹម)</span><span class="kh">ពិធីសំពះផ្ទឹម & ចងដៃសូត្រមន្ត</span>
+                </h4>
+                <span class="text-xs text-brand-muted font-medium">
+                  <span class="en">Wrist Knot Tying</span><span class="kh">ចងចំណងដៃអំបោះក្រហម</span>
+                </span>
+              </div>
+              <p class="text-sm text-brand-muted leading-relaxed">
+                <span class="en">Parents, relatives, and close friends tie red blessing threads around the couple's wrists while showering them with jasmine blossoms and bestowing words of wisdom.</span>
+                <span class="kh">មាតាបិតា សាច់ញាតិ និងមិត្តភ័ក្តិ ចងអំបោះក្រហមលើកដៃកូនទាំងពីរ ព្រមទាំងបាចផ្កាស្លា ប្រោះព្រំទឹកមន្ត និងជូនពរជ័យមហាសាល។</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 7 -->
+          <div class="relative pl-8 md:pl-10 group">
+            <div class="absolute -left-[17px] top-1 w-8 h-8 rounded-full bg-brand-surface border-4 border-brand-gold flex items-center justify-center text-xs font-bold text-brand-dark shadow-sm group-hover:scale-110 transition-transform">
+              <span class="en">7</span><span class="kh">៧</span>
+            </div>
+            <div class="md:absolute md:-left-36 md:top-1 text-xs font-semibold text-brand-gold bg-brand-goldLight px-2.5 py-1 rounded-lg inline-block mb-2 md:mb-0">
+              <span class="en">12:00 PM</span><span class="kh">១២:០០ ថ្ងៃត្រង់</span>
+            </div>
+            <div class="bg-brand-surface p-6 rounded-2xl border border-brand-border shadow-soft group-hover:border-brand-gold/40 transition-colors">
+              <div class="flex items-center justify-between gap-4 mb-2">
+                <h4 class="text-lg font-bold text-brand-dark font-serif">
+                  <span class="en">Lunch Banquet Reception</span><span class="kh">ពិធីទទួលទានអាហារថ្ងៃត្រង់</span>
+                </h4>
+                <span class="text-xs text-brand-muted font-medium">
+                  <span class="en">Communal Feast</span><span class="kh">ជួបជុំពិសាអាហារសាមគ្គី</span>
+                </span>
+              </div>
+              <p class="text-sm text-brand-muted leading-relaxed">
+                <span class="en">The morning culminates in a joyful communal meal. We assist your chosen caterer in staging a streamlined buffet or table setup with non-alcoholic refreshments.</span>
+                <span class="kh">បញ្ចប់ពិធីពេលព្រឹកដោយភាពរីករាយតាមរយៈការទទួលទានអាហារថ្ងៃត្រង់ជុំគ្នា។ យើងជួយរៀបចំការទទួលភ្ញៀវយ៉ាងរលូន។</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mt-12 p-6 rounded-2xl bg-brand-sageLight/50 border border-brand-sage/30 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl">🕊️</span>
+            <p class="text-sm text-brand-dark font-medium">
+              <span class="en">Want to adjust the timing to match your local monk's auspicious hour? Every schedule is customized free of charge.</span>
+              <span class="kh">ចង់កែសម្រួលម៉ោងឱ្យស្របតាមវេលាល្អរបស់ព្រះសង្ឃ ឬលោកគ្រូអាចារ្យ? យើងកែសម្រួលជូនដោយឥតគិតថ្លៃ។</span>
+            </p>
+          </div>
+          <a href="#contact" class="shrink-0 text-xs font-semibold px-5 py-2.5 rounded-full bg-brand-sage text-white hover:bg-brand-sageHover transition-colors text-center whitespace-nowrap">
+            <span class="en">Ask About Custom Timing</span><span class="kh">សាកសួរម៉ោងពិសេសតាមហោរាសាស្ត្រ</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="calculator" class="py-20 bg-brand-surface border-t border-brand-border">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <span class="text-xs uppercase tracking-widest font-semibold text-brand-sage bg-brand-sageLight/60 px-3 py-1 rounded-full">
+            <span class="en">Transparent Pricing</span><span class="kh">តម្លៃច្បាស់លាស់ តម្លាភាព</span>
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mt-4 mb-3">
+            <span class="en">Instant Cost Transparency</span><span class="kh">គណនាថវិកាពិតប្រាកដភ្លាមៗ</span>
+          </h2>
+          <p class="text-brand-muted text-sm sm:text-base">
+            <span class="en">Calculate your exact investment with optional add-ons. 100% upfront, zero surprise charges.</span>
+            <span class="kh">គណនាការចំណាយរបស់អ្នកជាមួយសេវាបន្ថែម។ តម្លៃពិតប្រាកដ ១០០% គ្មានការទារលុយបន្ថែមក្រោយខ្នង។</span>
+          </p>
+        </div>
+
+        <div class="bg-brand-bg rounded-3xl p-6 sm:p-10 border border-brand-border shadow-card">
+          
+          <div class="flex items-start sm:items-center justify-between pb-6 border-b border-brand-border gap-4">
+            <div>
+              <div class="flex items-center gap-2">
+                <h3 class="text-lg sm:text-xl font-bold text-brand-dark">
+                  <span class="en">Mongkul Jeat Full Morning Ceremony</span><span class="kh">កញ្ចប់ពិធីព្រឹកពេញលេញ មង្គលជាតិ</span>
+                </h3>
+                <span class="text-xs font-semibold px-2 py-0.5 rounded bg-brand-sage text-white">
+                  <span class="en">Included</span><span class="kh">រួមបញ្ចូលស្រាប់</span>
+                </span>
+              </div>
+              <p class="text-xs sm:text-sm text-brand-muted mt-1">
+                <span class="en">5:45 AM – 12 PM sacred rites, Achar, 3 attire changes, bridal hair & makeup, altar sets, day-of lead.</span>
+                <span class="kh">ពិធីព្រឹក ៥:៤៥ ព្រឹក – ១២:០០ ថ្ងៃត្រង់, អាចារ្យ, សម្លៀកបំពាក់ ៣ ឈុត, ផាត់មុខកូនក្រមុំ, រណ្ដាប់សែន, និងអ្នកចាត់ចែង។</span>
+              </p>
+            </div>
+            <div class="text-right shrink-0">
+              <span class="text-xl sm:text-2xl font-bold font-serif text-brand-dark">
+                <span class="en">$2,000</span><span class="kh">$២,០០០</span>
+              </span>
+              <span class="block text-[11px] text-brand-muted">
+                <span class="en">Base Package</span><span class="kh">កញ្ចប់គោល</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="py-6 space-y-4">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-brand-muted">
+              <span class="en">Optional Modular Add-Ons:</span><span class="kh">សេវាកម្មបន្ថែមតាមជម្រើស:</span>
+            </h4>
+            
+            <label class="flex items-start justify-between p-4 rounded-2xl bg-brand-surface border border-brand-border hover:border-brand-sage/50 cursor-pointer transition-colors group">
+              <div class="flex items-start gap-3">
+                <input type="checkbox" id="addon-photo" class="mt-1 w-5 h-5 rounded text-brand-sage focus:ring-brand-sage accent-[#8A9A86] cursor-pointer" onchange="updateCalculator()">
+                <div>
+                  <span class="text-sm font-semibold text-brand-dark group-hover:text-brand-sage transition-colors">
+                    <span class="en">Half-Day Professional Photography & Highlights</span><span class="kh">សេវាថតរូបអាជីពកន្លះថ្ងៃ & វីដេអូរំលេចសំខាន់ៗ</span>
+                  </span>
+                  <p class="text-xs text-brand-muted mt-0.5">
+                    <span class="en">Captures key morning moments: groom procession, haircut rites, and family portraits with high-res digital gallery.</span>
+                    <span class="kh">ផ្តិតយករូបភាពសំខាន់ៗពេលព្រឹក៖ ក្បួនហែ កាត់សក់ និងរូបថតគ្រួសារ ផ្ញើជូនជាកម្រងរូបថតកម្រិតច្បាស់ខ្ពស់។</span>
+                  </p>
+                </div>
+              </div>
+              <span class="text-sm font-bold text-brand-dark shrink-0 ml-4">
+                <span class="en">+$350</span><span class="kh">+$៣៥០</span>
+              </span>
+            </label>
+
+            <label class="flex items-start justify-between p-4 rounded-2xl bg-brand-surface border border-brand-border hover:border-brand-sage/50 cursor-pointer transition-colors group">
+              <div class="flex items-start gap-3">
+                <input type="checkbox" id="addon-evening" class="mt-1 w-5 h-5 rounded text-brand-sage focus:ring-brand-sage accent-[#8A9A86] cursor-pointer" onchange="updateCalculator()">
+                <div>
+                  <span class="text-sm font-semibold text-brand-dark group-hover:text-brand-sage transition-colors">
+                    <span class="en">Evening Reception Sound & Lighting</span><span class="kh">ប្រព័ន្ធសំឡេង ភ្លើងបំភ្លឺ និងមីក្រូហ្វូនសម្រាប់ពេលល្ងាច</span>
+                  </span>
+                  <p class="text-xs text-brand-muted mt-0.5">
+                    <span class="en">Dual speaker PA system, wireless microphones for parent speeches, and warm ambient dinner illumination.</span>
+                    <span class="kh">បំពងសំឡេងគុណភាពខ្ពស់ មីក្រូហ្វូនឥតខ្សែសម្រាប់ឪពុកម្តាយឡើងថ្លែងអំណរគុណ និងភ្លើងបំភ្លឺតុអាហារពេលល្ងាច។</span>
+                  </p>
+                </div>
+              </div>
+              <span class="text-sm font-bold text-brand-dark shrink-0 ml-4">
+                <span class="en">+$200</span><span class="kh">+$២០០</span>
+              </span>
+            </label>
+          </div>
+
+          <div class="pt-6 border-t border-brand-border flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>
+              <span class="text-xs text-brand-muted uppercase tracking-wider block">
+                <span class="en">Estimated Total Budget</span><span class="kh">ថវិកាសរុបប៉ាន់ស្មាន</span>
+              </span>
+              <div class="flex items-baseline gap-2">
+                <span id="calculated-total" class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark">
+                  <span class="en">$2,000</span><span class="kh">$២,០០០</span>
+                </span>
+                <span class="text-xs text-brand-sage font-medium">
+                  <span class="en">USD (No VAT Surprises)</span><span class="kh">ដុល្លារអាមេរិក (គ្មានការទារលុយបន្ថែម)</span>
+                </span>
+              </div>
+            </div>
+            
+            <a href="#contact" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-brand-sage text-white text-sm font-semibold hover:bg-brand-sageHover active:scale-95 transition-all">
+              <span class="en">Lock In This Pricing</span><span class="kh">កក់តម្លៃនេះទុកជាមុន</span>
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+
+          <p class="text-[11px] text-brand-muted text-center mt-4">
+            <span class="en">Payment Milestone: 30% booking deposit upon date confirmation • 70% remaining paid smoothly on wedding day.</span>
+            <span class="kh">ដំណាក់កាលបង់ប្រាក់៖ កក់ ៣០% នៅពេលបញ្ជាក់កាលបរិច្ឆេទ • ៧០% ដែលនៅសល់បង់នៅថ្ងៃរៀបអាពាហ៍ពិពាហ៍។</span>
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="coverage" class="py-20 bg-brand-bg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <span class="text-xs uppercase tracking-widest font-semibold text-brand-sage bg-brand-sageLight/60 px-3 py-1 rounded-full">
+            <span class="en">Nationwide Reach</span><span class="kh">សេវាកម្មទូទាំងប្រទេស</span>
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark mt-4 mb-3">
+            <span class="en">Serving Everyday Families Across Cambodia</span><span class="kh">បម្រើសេវាកម្មជូនក្រុមគ្រួសារខ្មែរគ្រប់ទិសទី</span>
+          </h2>
+          <p class="text-brand-muted text-sm sm:text-base">
+            <span class="en">Whether in a suburban shophouse, pagoda hall, or village wooden home, we adapt seamlessly.</span>
+            <span class="kh">មិនថានៅផ្ទះល្វែង សាលាវត្ត ឬបរិវេណផ្ទះឈើតាមស្រុកភូមិ យើងរៀបចំជូនយ៉ាងសមរម្យឥតខ្ចោះ។</span>
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-16">
+          <div class="bg-brand-surface p-5 rounded-2xl border border-brand-border text-center">
+            <h4 class="font-serif font-bold text-brand-dark text-lg">
+              <span class="en">Phnom Penh</span><span class="kh">រាជធានីភ្នំពេញ</span>
+            </h4>
+            <p class="text-xs text-brand-muted mt-1">
+              <span class="en">Khan Sen Sok, Chbar Ampov, Meanchey & nationwide</span><span class="kh">ខណ្ឌសែនសុខ ច្បារអំពៅ មានជ័យ និងទូទាំងរាជធានី</span>
+            </p>
+          </div>
+          <div class="bg-brand-surface p-5 rounded-2xl border border-brand-border text-center">
+            <h4 class="font-serif font-bold text-brand-dark text-lg">
+              <span class="en">Siem Reap</span><span class="kh">ខេត្តសៀមរាប</span>
+            </h4>
+            <p class="text-xs text-brand-muted mt-1">
+              <span class="en">Svay Dangkum, Sala Kamreuk & provincial communes</span><span class="kh">ស្វាយដង្គំ សាលាកំរើក និងបណ្តាស្រុកនានា</span>
+            </p>
+          </div>
+          <div class="bg-brand-surface p-5 rounded-2xl border border-brand-border text-center">
+            <h4 class="font-serif font-bold text-brand-dark text-lg">
+              <span class="en">Battambang</span><span class="kh">ខេត្តបាត់ដំបង</span>
+            </h4>
+            <p class="text-xs text-brand-muted mt-1">
+              <span class="en">City center, Wat Kor & surrounding homelands</span><span class="kh">ក្រុងបាត់ដំបង វត្តគរ និងភូមិដ្ឋានជុំវិញ</span>
+            </p>
+          </div>
+          <div class="bg-brand-surface p-5 rounded-2xl border border-brand-border text-center">
+            <h4 class="font-serif font-bold text-brand-dark text-lg">
+              <span class="en">Kampong Cham</span><span class="kh">ខេត្តកំពង់ចាម</span>
+            </h4>
+            <p class="text-xs text-brand-muted mt-1">
+              <span class="en">Along the Mekong riverfront & rural districts</span><span class="kh">តាមបណ្តោយទន្លេមេគង្គ និងតាមស្រុកនានា</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div class="bg-brand-surface p-6 rounded-2xl border border-brand-border shadow-soft">
+            <div class="flex items-center gap-1 text-brand-gold text-sm mb-3">★★★★★</div>
+            <p class="text-sm text-brand-dark leading-relaxed italic mb-4">
+              <span class="en">"We were terrified of borrowing $8,000 from local money lenders just to make the wedding happen. Mongkul Jeat brought the entire ritual set, the Achar, and gorgeous traditional clothes to our family compound in Battambang. Our elders were in tears of joy."</span>
+              <span class="kh">"ពួកយើងធ្លាប់តែបារម្ភ និងភ័យខ្លាចខ្លាំងចំពោះការខ្ចីបុលលុយគេរហូតដល់ $៨,០០០ ពីកន្លែងចងការប្រាក់ដើម្បីគ្រាន់តែរៀបការ។ មង្គលជាតិ បាននាំយករណ្ដាប់សែនប្រពៃណីគ្រប់មុខ អាចារ្យ និងឈុតសម្លៀកបំពាក់សូត្រខ្មែរយ៉ាងស្រស់ស្អាតមកដល់គេហដ្ឋានយើងនៅបាត់ដំបង។ ឪពុកម្តាយ និងចាស់ទុំរំភើបស្រក់ទឹកភ្នែកដោយក្តីរីករាយ។"</span>
+            </p>
+            <div class="flex items-center justify-between text-xs text-brand-muted">
+              <span class="font-semibold text-brand-dark">
+                <span class="en">Sokha & Chantrea (Age 28 & 26)</span><span class="kh">សុខា & ចាន់ទ្រា (អាយុ ២៨ & ២៦ ឆ្នាំ)</span>
+              </span>
+              <span>
+                <span class="en">Battambang • Married Feb 2026</span><span class="kh">ខេត្តបាត់ដំបង • រៀបការ ខែកុម្ភៈ ឆ្នាំ២០២៦</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="bg-brand-surface p-6 rounded-2xl border border-brand-border shadow-soft">
+            <div class="flex items-center gap-1 text-brand-gold text-sm mb-3">★★★★★</div>
+            <p class="text-sm text-brand-dark leading-relaxed italic mb-4">
+              <span class="en">"Working in Phnom Penh garment production, we thought a proper traditional ceremony was out of our reach. The 5:45 AM to 12 PM timeline ran like clockwork. The red string ceremony felt so sacred and dignified."</span>
+              <span class="kh">"ធ្វើការរោងចក្រកាត់ដេរនៅភ្នំពេញ ពួកយើងធ្លាប់គិតថាពិធីមង្គលការប្រពៃណីពេញលេញគឺហួសពីលទ្ធភាពរបស់ពួកយើងហើយ។ ប៉ុន្តែកាលវិភាគពីម៉ោង ៥:៤៥ ព្រឹក ដល់ ១២ ថ្ងៃត្រង់ដំណើរការទៅយ៉ាងរលូនឥតខ្ចោះ។ ពិធីចងដៃសូត្រមន្តពិតជាពិសិដ្ឋ មានសិរីសួស្តី និងមានកិត្តិយសថ្លៃថ្នូរបំផុត។"</span>
+            </p>
+            <div class="flex items-center justify-between text-xs text-brand-muted">
+              <span class="font-semibold text-brand-dark">
+                <span class="en">Vannak & Bopha (Age 32 & 29)</span><span class="kh">វណ្ណៈ & បុប្ផា (អាយុ ៣២ & ២៩ ឆ្នាំ)</span>
+              </span>
+              <span>
+                <span class="en">Phnom Penh • Married Nov 2025</span><span class="kh">រាជធានីភ្នំពេញ • រៀបការ ខែវិច្ឆិកា ឆ្នាំ២០២៥</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="faq" class="py-20 bg-brand-surface border-t border-brand-border">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-12">
+          <span class="text-xs uppercase tracking-widest font-semibold text-brand-sage bg-brand-sageLight/60 px-3 py-1 rounded-full">
+            <span class="en">Common Inquiries</span><span class="kh">ចម្ងល់ទូទៅ</span>
+          </span>
+          <h2 class="text-3xl font-serif font-bold text-brand-dark mt-4 mb-2">
+            <span class="en">Frequently Asked Questions</span><span class="kh">សំណួរដែលសួរញឹកញាប់</span>
+          </h2>
+          <p class="text-brand-muted text-sm">
+            <span class="en">Everything you need to know about our $2,000 all-inclusive package.</span>
+            <span class="kh">ព័ត៌មានលម្អិតទាំងអស់ដែលលោកអ្នកចង់ដឹងអំពីកញ្ចប់ពេញលេញ $២,០០០ របស់យើង។</span>
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          
+          <div class="border border-brand-border rounded-2xl overflow-hidden bg-brand-bg">
+            <button class="w-full text-left p-5 font-semibold text-brand-dark flex items-center justify-between gap-4 focus:outline-none" onclick="toggleFaq(1)">
+              <span>
+                <span class="en">Can this ceremony be arranged in a regular family shophouse or wooden home?</span>
+                <span class="kh">តើអាចរៀបចំពិធីនេះនៅផ្ទះល្វែងធម្មតា ឬផ្ទះឈើបានដែរឬទេ?</span>
+              </span>
+              <svg id="faq-icon-1" class="w-5 h-5 text-brand-sage transform transition-transform duration-200 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div id="faq-content-1" class="hidden px-5 pb-5 text-sm text-brand-muted leading-relaxed border-t border-brand-border/40 pt-3">
+              <span class="en">Yes, absolutely! Over 80% of our weddings are hosted directly inside ground-floor family shophouses, covered courtyards, or ancestral home compounds. We bring compact, elegant ceremonial pedestals designed specifically to fit warm, intimate domestic spaces.</span>
+              <span class="kh">ពិតជាបានយ៉ាងប្រាកដ! ជាង ៨០% នៃពិធីមង្គលការដែលយើងរៀបចំ គឺធ្វើឡើងនៅជាន់ផ្ទាល់ដីនៃផ្ទះល្វែង បរិវេណមុខផ្ទះ ឬគេហដ្ឋានដូនតាក្នុងភូមិ។ យើងរៀបចំជើងពានរណ្ដាប់សែនយ៉ាងស្រស់ស្អាត សមសួន ដែលរចនាឡើងយ៉ាងស័ក្តិសមបំផុតសម្រាប់លំហគេហដ្ឋានកក់ក្តៅរបស់គ្រួសារ។</span>
+            </div>
+          </div>
+
+          <div class="border border-brand-border rounded-2xl overflow-hidden bg-brand-bg">
+            <button class="w-full text-left p-5 font-semibold text-brand-dark flex items-center justify-between gap-4 focus:outline-none" onclick="toggleFaq(2)">
+              <span>
+                <span class="en">How does the lunch banquet coordination work with the $2k package?</span>
+                <span class="kh">តើការសម្របសម្រួលអាហារថ្ងៃត្រង់ដំណើរការយ៉ាងដូចម្តេចក្នុងកញ្ចប់ $២,០០០ នេះ?</span>
+              </span>
+              <svg id="faq-icon-2" class="w-5 h-5 text-brand-sage transform transition-transform duration-200 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div id="faq-content-2" class="hidden px-5 pb-5 text-sm text-brand-muted leading-relaxed border-t border-brand-border/40 pt-3">
+              <span class="en">Our package covers the complete setup coordination, guest table management, and flow for your lunch celebration. You can hire your preferred local village cook or caterer, or we can connect you directly with affordable, trusted buffet providers (typically $5 - $7/guest) with zero markup from us.</span>
+              <span class="kh">កញ្ចប់នេះរួមបញ្ចូលការរៀបចំតុ សម្របសម្រួលលំហូរទទួលភ្ញៀវ និងការចាត់ចែងសម្រាប់ពិធីជប់លៀងថ្ងៃត្រង់។ លោកអ្នកអាចជួលចុងភៅភូមិ ឬអ្នកទទួលធ្វើម្ហូបដែលពេញចិត្ត ឬយើងអាចជួយណែនាំអ្នកផ្គត់ផ្គង់អាហារប៊ូហ្វេដែលមានទំនុកចិត្ត និងតម្លៃសមរម្យ (ជាទូទៅ $៥ - $៧ ក្នុងម្នាក់) ដោយគ្មានការបូកតម្លៃបន្ថែមពីយើងឡើយ។</span>
+            </div>
+          </div>
+
+          <div class="border border-brand-border rounded-2xl overflow-hidden bg-brand-bg">
+            <button class="w-full text-left p-5 font-semibold text-brand-dark flex items-center justify-between gap-4 focus:outline-none" onclick="toggleFaq(3)">
+              <span>
+                <span class="en">What sizes are available for the 3 attire sets?</span>
+                <span class="kh">តើសម្លៀកបំពាក់ទាំង ៣ ឈុតមានទំហំយ៉ាងណាខ្លះ?</span>
+              </span>
+              <svg id="faq-icon-3" class="w-5 h-5 text-brand-sage transform transition-transform duration-200 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div id="faq-content-3" class="hidden px-5 pb-5 text-sm text-brand-muted leading-relaxed border-t border-brand-border/40 pt-3">
+              <span class="en">We carry traditional Khmer silk sampots, sabais, and jackets in sizes ranging from XS to 4XL. Two weeks prior to your ceremony, our tailor takes your measurements to adjust the waistlines and seams for an immaculate fit.</span>
+              <span class="kh">យើងមានសម្លៀកបំពាក់សូត្របុរាណខ្មែរ សំពត់ចងក្បិន ស្បៃ និងអាវធំ ចាប់ពីទំហំតូចដល់ទំហំធំ។ ពីរសប្តាហ៍មុនថ្ងៃមង្គលការ ជាងកាត់ដេររបស់យើងនឹងវាស់ទំហំរូបរាងផ្ទាល់ ដើម្បីកែសម្រួលចង្កេះ និងថ្នេរឱ្យសមល្មមឥតខ្ចោះជាមួយរូបរាងរបស់អ្នកទាំងពីរ។</span>
+            </div>
+          </div>
+
+          <div class="border border-brand-border rounded-2xl overflow-hidden bg-brand-bg">
+            <button class="w-full text-left p-5 font-semibold text-brand-dark flex items-center justify-between gap-4 focus:outline-none" onclick="toggleFaq(4)">
+              <span>
+                <span class="en">What is the deposit and cancellation policy?</span>
+                <span class="kh">តើគោលការណ៍កក់ប្រាក់ និងការផ្លាស់ប្តូរកាលបរិច្ឆេទមានលក្ខខណ្ឌដូចម្តេច?</span>
+              </span>
+              <svg id="faq-icon-4" class="w-5 h-5 text-brand-sage transform transition-transform duration-200 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div id="faq-content-4" class="hidden px-5 pb-5 text-sm text-brand-muted leading-relaxed border-t border-brand-border/40 pt-3">
+              <span class="en">We require a $600 deposit (30%) to officially reserve your date. Date changes are permitted free of charge up to 30 days prior if your family astrologer or monk recommends a different auspicious day. The remaining balance is paid on the wedding day.</span>
+              <span class="kh">យើងតម្រូវឱ្យមានការកក់ប្រាក់ $៦០០ (៣០%) ដើម្បីកក់កាលបរិច្ឆេទជាផ្លូវការ។ ការផ្លាស់ប្តូរកាលបរិច្ឆេទអាចធ្វើឡើងដោយឥតគិតថ្លៃរហូតដល់ ៣០ ថ្ងៃមុនកម្មវិធី ប្រសិនបើអាចារ្យ ឬហោរាណែនាំថ្ងៃជ័យថ្មី។ ចំណែកប្រាក់នៅសល់ ៧០% គឺទូទាត់នៅថ្ងៃរៀបអាពាហ៍ពិពាហ៍ផ្ទាល់។</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-brand-bg relative">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="bg-brand-surface rounded-3xl p-8 sm:p-12 border border-brand-border shadow-card relative overflow-hidden">
+          
+          <div class="text-center max-w-xl mx-auto mb-10">
+            <div class="w-12 h-12 rounded-2xl bg-brand-sageLight text-brand-sage flex items-center justify-center mx-auto mb-4">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+            </div>
+            <h2 class="text-3xl font-serif font-bold text-brand-dark mb-2">
+              <span class="en">Check Your Wedding Date</span><span class="kh">ពិនិត្យកាលបរិច្ឆេទថ្ងៃមង្គលការរបស់អ្នក</span>
+            </h2>
+            <p class="text-sm text-brand-muted">
+              <span class="en">Fill out the form below. We will immediately check our calendar and reach out on Telegram within 30 minutes.</span>
+              <span class="kh">សូមបំពេញព័ត៌មានខាងក្រោម។ ក្រុមការងារយើងនឹងពិនិត្យប្រតិទិន និងទាក់ទងមកលោកអ្នកតាមតេឡេក្រាមក្នុងរយៈពេល ៣០ នាទី។</span>
+            </p>
+          </div>
+
+          <form id="wedding-form" onsubmit="handleFormSubmit(event)" class="space-y-6">
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-xs font-semibold text-brand-dark uppercase tracking-wider mb-2">
+                  <span class="en">Bride & Groom Names *</span><span class="kh">ឈ្មោះកូនកំលោះ & កូនក្រមុំ *</span>
+                </label>
+                <input type="text" id="couple-names" required data-en-placeholder="e.g., Sokha & Sopheap" data-kh-placeholder="ឧទាហរណ៍៖ សុខា & សុភាព" placeholder="e.g., Sokha & Sopheap" class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm text-brand-dark placeholder:text-brand-muted/60 focus:outline-none focus:ring-2 focus:ring-brand-sage focus:border-transparent transition-all">
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-brand-dark uppercase tracking-wider mb-2">
+                  <span class="en">Telegram / Phone Number *</span><span class="kh">លេខទូរស័ព្ទ / តេឡេក្រាម *</span>
+                </label>
+                <input type="tel" id="telegram-number" required data-en-placeholder="e.g., 012 345 678" data-kh-placeholder="ឧទាហរណ៍៖ ០១២ ៣៤៥ ៦៧៨" placeholder="e.g., 012 345 678" class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm text-brand-dark placeholder:text-brand-muted/60 focus:outline-none focus:ring-2 focus:ring-brand-sage focus:border-transparent transition-all">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-xs font-semibold text-brand-dark uppercase tracking-wider mb-2">
+                  <span class="en">Desired Ceremony Date *</span><span class="kh">កាលបរិច្ឆេទថ្ងៃមង្គលការ *</span>
+                </label>
+                <input type="date" id="wedding-date" required class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm text-brand-dark focus:outline-none focus:ring-2 focus:ring-brand-sage focus:border-transparent transition-all">
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-brand-dark uppercase tracking-wider mb-2">
+                  <span class="en">Location / Province *</span><span class="kh">ទីតាំង / ខេត្ត-ក្រុង *</span>
+                </label>
+                <select id="province" required class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm text-brand-dark focus:outline-none focus:ring-2 focus:ring-brand-sage focus:border-transparent transition-all">
+                  <option value="Phnom Penh" data-en-text="Phnom Penh" data-kh-text="រាជធានីភ្នំពេញ">Phnom Penh</option>
+                  <option value="Siem Reap" data-en-text="Siem Reap" data-kh-text="ខេត្តសៀមរាប">Siem Reap</option>
+                  <option value="Battambang" data-en-text="Battambang" data-kh-text="ខេត្តបាត់ដំបង">Battambang</option>
+                  <option value="Kampong Cham" data-en-text="Kampong Cham" data-kh-text="ខេត្តកំពង់ចាម">Kampong Cham</option>
+                  <option value="Kandal" data-en-text="Kandal" data-kh-text="ខេត្តកណ្តាល">Kandal</option>
+                  <option value="Preah Sihanouk" data-en-text="Preah Sihanouk" data-kh-text="ខេត្តព្រះសីហនុ">Preah Sihanouk</option>
+                  <option value="Other Province" data-en-text="Other Province Nationwide" data-kh-text="ខេត្តផ្សេងៗទូទាំងប្រទេស">Other Province Nationwide</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-brand-dark uppercase tracking-wider mb-2">
+                <span class="en">Intended Venue Setting</span><span class="kh">ទីកន្លែងប្រារព្ធពិធី</span>
+              </label>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <label class="flex items-center gap-2 p-3 rounded-xl bg-brand-bg border border-brand-border text-xs text-brand-dark cursor-pointer hover:border-brand-sage">
+                  <input type="radio" name="venue" value="Family Shophouse" checked class="accent-[#8A9A86]">
+                  <span class="en">Family Shophouse</span><span class="kh">ផ្ទះល្វែងគ្រួសារ</span>
+                </label>
+                <label class="flex items-center gap-2 p-3 rounded-xl bg-brand-bg border border-brand-border text-xs text-brand-dark cursor-pointer hover:border-brand-sage">
+                  <input type="radio" name="venue" value="Home Compound" class="accent-[#8A9A86]">
+                  <span class="en">Home Compound</span><span class="kh">បរិវេណផ្ទះភូមិ</span>
+                </label>
+                <label class="flex items-center gap-2 p-3 rounded-xl bg-brand-bg border border-brand-border text-xs text-brand-dark cursor-pointer hover:border-brand-sage">
+                  <input type="radio" name="venue" value="Community Hall" class="accent-[#8A9A86]">
+                  <span class="en">Community Hall / Pagoda</span><span class="kh">សាលាសហគមន៍/វត្ត</span>
+                </label>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-brand-dark uppercase tracking-wider mb-2">
+                <span class="en">Special Notes or Questions (Optional)</span><span class="kh">ចំណាំ ឬសំណួរផ្សេងៗ (ជម្រើស)</span>
+              </label>
+              <textarea id="notes" rows="3" data-en-placeholder="Estimated guest count, monk timing, etc..." data-kh-placeholder="ចំនួនភ្ញៀវប៉ាន់ស្មាន ម៉ោងល្អរបស់លោកគ្រូ..." placeholder="Estimated guest count, monk timing, etc..." class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm text-brand-dark placeholder:text-brand-muted/60 focus:outline-none focus:ring-2 focus:ring-brand-sage focus:border-transparent transition-all"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-4 px-6 rounded-full bg-brand-sage text-white font-semibold text-base hover:bg-brand-sageHover shadow-card hover:shadow-float active:scale-98 transition-all duration-200 flex items-center justify-center gap-2">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.39 5.08L2.2 21.8l4.85-1.16C8.47 21.49 10.18 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm4.65 14.28c-.2.57-1.16 1.05-1.61 1.1-.42.05-.98.08-2.83-.68-2.37-.98-3.9-3.39-4.02-3.55-.12-.16-.97-1.29-.97-2.46s.61-1.74.83-1.98c.22-.24.48-.3.64-.3s.32.01.46.02c.15.01.35-.06.55.42.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.26-.24.4-.12.14-.25.31-.36.42-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.38.1.52-.06.14-.16.61-.71.77-.96.16-.25.32-.21.54-.13.22.08 1.4.66 1.64.78.24.12.4.18.46.28.06.1.06.58-.14 1.15z"/>
+              </svg>
+              <span class="en">Check Your Wedding Date on Telegram</span><span class="kh">ពិនិត្យកាលបរិច្ឆេទតាមតេឡេក្រាម</span>
+            </button>
+
+            <p class="text-[11px] text-brand-muted text-center">
+              <span class="en">🔒 No spam. We only contact you to confirm date availability.</span>
+              <span class="kh">🔒 រក្សាការសម្ងាត់។ យើងទាក់ទងមកលោកអ្នកដើម្បីបញ្ជាក់កាលបរិច្ឆេទតែប៉ុណ្ណោះ។</span>
+            </p>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-brand-surface border-t border-brand-border py-12 text-sm text-brand-muted">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-brand-sage text-white flex items-center justify-center">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 3C12 3 8 7 8 13C8 16 9.5 19 12 21C14.5 19 16 16 16 13C16 7 12 3 12 3Z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="font-serif font-bold text-brand-dark text-base">
+            <span class="en">Mongkul Jeat</span><span class="kh">មង្គលជាតិ</span>
+          </span>
+          <span class="text-xs text-brand-muted block">
+            <span class="en">Debt-Free Khmer Ceremonies</span><span class="kh">មង្គលការខ្មែរប្រពៃណី (គ្មានបំណុល)</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="text-center md:text-right text-xs space-y-1">
+        <p>
+          <span class="en">© 2026 Mongkul Jeat. Honoring Cambodian families nationwide.</span>
+          <span class="kh">© ២០២៦ មង្គលជាតិ។ បម្រើសេវាកម្មជូនក្រុមគ្រួសារខ្មែរទូទាំងប្រទេស។</span>
+        </p>
+        <p class="text-brand-muted/70">
+          <span class="en">Affordable $2,000 all-inclusive traditional wedding coordination.</span>
+          <span class="kh">សេវាកម្មរៀបចំអាពាហ៍ពិពាហ៍ប្រពៃណីខ្មែរពេញលេញ ២,០០០ ដុល្លារ។</span>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <div id="confirmation-modal" class="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-brand-surface rounded-3xl p-8 max-w-md w-full border border-brand-border shadow-float animate-scale-up">
+      <div class="w-14 h-14 rounded-2xl bg-brand-sageLight text-brand-sage flex items-center justify-center mx-auto mb-5">
+        <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+          <polyline points="22 4 12 14.01 9 11.01"/>
+        </svg>
+      </div>
+      
+      <h3 class="text-xl font-serif font-bold text-brand-dark text-center mb-2">
+        <span class="en">Inquiry Ready!</span><span class="kh">ព័ត៌មានរួចរាល់ហើយ!</span>
+      </h3>
+      <p class="text-xs text-brand-muted text-center mb-6 leading-relaxed">
+        <span class="en">Your inquiry details have been formatted. Select an option below to reach us.</span>
+        <span class="kh">ព័ត៌មានសាកសួររបស់អ្នកត្រូវបានរៀបចំរួចរាល់។ សូមជ្រើសរើសជម្រើសខាងក្រោមដើម្បីទាក់ទង។</span>
+      </p>
+
+      <div class="bg-brand-bg p-4 rounded-xl text-xs space-y-2 mb-6 border border-brand-border font-mono text-brand-dark" id="modal-details">
+        <!-- Filled dynamically via JS -->
+      </div>
+
+      <div class="space-y-3">
+        <a id="modal-telegram-link" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-4 rounded-full bg-brand-sage text-white font-semibold text-sm hover:bg-brand-sageHover transition-all flex items-center justify-center gap-2 shadow-soft">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .4z"/>
+          </svg>
+          <span class="en">Open Telegram Chat Now</span><span class="kh">បើកតេឡេក្រាមជជែកផ្ទាល់</span>
+        </a>
+
+        <button id="modal-copy-btn" onclick="copyInquiryText()" class="w-full py-2.5 px-4 rounded-full bg-brand-surface border border-brand-border text-brand-dark hover:bg-brand-sageLight text-xs font-semibold transition-all flex items-center justify-center gap-2">
+          <svg class="w-4 h-4 text-brand-sage" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+          </svg>
+          <span class="en">Copy Message</span><span class="kh">ចម្លងសារសាកសួរ</span>
+        </button>
+
+        <button onclick="closeModal()" class="w-full py-2 px-4 rounded-full text-brand-muted hover:text-brand-dark text-xs font-medium transition-colors pt-2">
+          <span class="en">Close Window</span><span class="kh">បិទផ្ទាំងនេះ</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast-message" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none bg-brand-dark text-white text-xs px-4 py-3 rounded-xl shadow-float flex items-center gap-2">
+    <svg class="w-4 h-4 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M20 6L9 17l-5-5"/>
+    </svg>
+    <span id="toast-text">Copied!</span>
+  </div>
+
+  <script>
+    let rawInquiryText = '';
+
+    // Language Toggle Initialization
+    function toggleLanguage() {
+      const html = document.documentElement;
+      const currentLang = html.getAttribute('lang') || 'en';
+      const newLang = currentLang === 'en' ? 'kh' : 'en';
+      
+      html.setAttribute('lang', newLang);
+      localStorage.setItem('mongkulJeatLang', newLang);
+      applyLanguageAttributes(newLang);
+      updateCalculator(); // Re-render calculated total in right numeral format
+    }
+
+    function applyLanguageAttributes(lang) {
+      document.querySelectorAll('[data-en-placeholder]').forEach(el => {
+        el.placeholder = el.getAttribute(`data-${lang}-placeholder`);
+      });
+      document.querySelectorAll('option[data-en-text]').forEach(el => {
+        el.textContent = el.getAttribute(`data-${lang}-text`);
+      });
+    }
+
+    function initLanguage() {
+      const savedLang = localStorage.getItem('mongkulJeatLang') || 'kh';
+      document.documentElement.setAttribute('lang', savedLang);
+      applyLanguageAttributes(savedLang);
+    }
+
+    // Number Converter
+    function convertToKhmerNumerals(numStr) {
+      const khmerDigits = ['០', '១', '២', '៣', '៤', '៥', '៦', '៧', '៨', '៩'];
+      return numStr.toString().replace(/[0-9]/g, match => khmerDigits[match]);
+    }
+
+    // Live Add-on Pricing Calculator
+    function updateCalculator() {
+      let total = 2000;
+      const photoChecked = document.getElementById('addon-photo').checked;
+      const eveningChecked = document.getElementById('addon-evening').checked;
+
+      if (photoChecked) total += 350;
+      if (eveningChecked) total += 200;
+
+      const formattedEN = total.toLocaleString();
+      const formattedKH = convertToKhmerNumerals(formattedEN);
+
+      document.getElementById('calculated-total').innerHTML = `
+        <span class="en">$${formattedEN}</span><span class="kh">$${formattedKH}</span>
+      `;
+    }
+
+    // Interactive FAQ Accordion
+    function toggleFaq(index) {
+      const content = document.getElementById(`faq-content-${index}`);
+      const icon = document.getElementById(`faq-icon-${index}`);
+      
+      if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        content.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+
+    // Form Handling
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      const lang = document.documentElement.getAttribute('lang') || 'en';
+      
+      const coupleNames = document.getElementById('couple-names').value.trim();
+      const telegramNumber = document.getElementById('telegram-number').value.trim();
+      const weddingDate = document.getElementById('wedding-date').value;
+      const provinceEl = document.getElementById('province');
+      const provinceText = provinceEl.options[provinceEl.selectedIndex].getAttribute(`data-${lang}-text`);
+      
+      const venueElement = document.querySelector('input[name="venue"]:checked');
+      const venueCode = venueElement ? venueElement.value : 'Family Shophouse';
+      let venueText = venueCode;
+      if (lang === 'kh') {
+        if (venueCode === 'Family Shophouse') venueText = 'ផ្ទះល្វែងគ្រួសារ';
+        if (venueCode === 'Home Compound') venueText = 'បរិវេណផ្ទះភូមិ';
+        if (venueCode === 'Community Hall') venueText = 'សាលាសហគមន៍/វត្ត';
+      }
+
+      const notes = document.getElementById('notes').value.trim();
+      const photoChecked = document.getElementById('addon-photo') ? document.getElementById('addon-photo').checked : false;
+      const eveningChecked = document.getElementById('addon-evening') ? document.getElementById('addon-evening').checked : false;
+
+      let packageInclusions = lang === 'en' ? "$2,000 Base All-Inclusive" : "កញ្ចប់គោល $២,០០០";
+      if (photoChecked) packageInclusions += lang === 'en' ? " + Photo ($350)" : " + ថតរូប ($៣៥០)";
+      if (eveningChecked) packageInclusions += lang === 'en' ? " + Evening Audio ($200)" : " + សំឡេងល្ងាច ($២០០)";
+
+      // Format pure text based on selected language
+      if (lang === 'en') {
+        rawInquiryText = `Hello Mongkul Jeat team,\n\n` +
+          `We are interested in booking the $2,000 Khmer Wedding Ceremony:\n` +
+          `• Couple: ${coupleNames}\n` +
+          `• Contact: ${telegramNumber}\n` +
+          `• Desired Date: ${weddingDate || 'Pending Astrologer'}\n` +
+          `• Province: ${provinceText}\n` +
+          `• Setting: ${venueText}\n` +
+          `• Package: ${packageInclusions}\n` +
+          (notes ? `• Notes: ${notes}\n` : '') +
+          `\nPlease let us know if our wedding date is available!`;
+          
+        document.getElementById('modal-details').innerHTML = `
+          <div><strong>Couple:</strong> ${coupleNames}</div>
+          <div><strong>Date:</strong> ${weddingDate || 'Pending'}</div>
+          <div><strong>Location:</strong> ${provinceText} (${venueText})</div>
+          <div><strong>Package:</strong> ${packageInclusions}</div>
+        `;
+      } else {
+        rawInquiryText = `សួស្តីក្រុមការងារ មង្គលជាតិ,\n\n` +
+          `ពួកយើងចង់សាកសួរ និងកក់កញ្ចប់មង្គលការខ្មែរ $២,០០០:\n` +
+          `• ឈ្មោះគូស្នេហ៍: ${coupleNames}\n` +
+          `• លេខទូរស័ព្ទ/តេឡេក្រាម: ${telegramNumber}\n` +
+          `• កាលបរិច្ឆេទ: ${weddingDate || 'រង់ចាំមើលវេលា'}\n` +
+          `• ខេត្ត/ក្រុង: ${provinceText}\n` +
+          `• ទីកន្លែង: ${venueText}\n` +
+          `• កញ្ចប់ជ្រើសរើស: ${packageInclusions}\n` +
+          (notes ? `• ចំណាំបន្ថែម: ${notes}\n` : '') +
+          `\nសូមជួយពិនិត្យកាលវិភាគទំនេរផង។ សូមអរគុណ!`;
+          
+        document.getElementById('modal-details').innerHTML = `
+          <div><strong>គូស្នេហ៍:</strong> ${coupleNames}</div>
+          <div><strong>កាលបរិច្ឆេទ:</strong> ${weddingDate || 'រង់ចាំមើលវេលា'}</div>
+          <div><strong>ទីតាំង:</strong> ${provinceText} (${venueText})</div>
+          <div><strong>កញ្ចប់:</strong> ${packageInclusions}</div>
+        `;
+      }
+
+      // Configure Telegram Link
+      const encodedMsg = encodeURIComponent(rawInquiryText);
+      const telegramAnchor = document.getElementById('modal-telegram-link');
+      telegramAnchor.href = `https://t.me/mongkuljeat?text=${encodedMsg}`;
+
+      // Display Modal
+      const modal = document.getElementById('confirmation-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function copyInquiryText() {
+      if (!rawInquiryText) return;
+      
+      const lang = document.documentElement.getAttribute('lang') || 'en';
+      const successMsg = lang === 'en' ? 'Copied to clipboard!' : 'បានចម្លងរួចរាល់!';
+      const errorMsg = lang === 'en' ? 'Failed to copy' : 'មានបញ្ហាក្នុងការចម្លង';
+
+      const textarea = document.createElement('textarea');
+      textarea.value = rawInquiryText;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+
+      try {
+        document.execCommand('copy');
+        showToast(successMsg);
+      } catch (err) {
+        showToast(errorMsg);
+      }
+      document.body.removeChild(textarea);
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById('toast-message');
+      const toastText = document.getElementById('toast-text');
+      toastText.innerText = message;
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-20', 'opacity-0');
+      }, 3000);
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('confirmation-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    window.addEventListener('click', (e) => {
+      const modal = document.getElementById('confirmation-modal');
+      if (e.target === modal) closeModal();
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      initLanguage();
+      const dateInput = document.getElementById('wedding-date');
+      if (dateInput) {
+        const today = new Date();
+        today.setDate(today.getDate() + 1);
+        dateInput.min = today.toISOString().split('T')[0];
+      }
+    });
+  </script>
+</body>
+</html>
